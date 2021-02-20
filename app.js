@@ -79,8 +79,8 @@ const createSlider = () => {
 // Duration and changing time 
   const duration = document.getElementById('duration').value || 1000;
  
-  if(duration < 0){
-    alert("Please increase Your Sliding Time More Than 0 Milliseconds ");
+  if(duration < -0){
+    alert("Please increase your slide time above 0 millisecond ");
     
   }else{
 
